@@ -3,7 +3,7 @@ import { getUserSession } from "@/server/user";
 import { redirect } from "next/navigation";
 import { RegisterForm } from "@/components/auth/auth-register-form";
 
-export default async function LoginPage() {
+export default async function SignUpPage() {
   const app_name = process.env.APP_NAME || "CDMAN Inc.";
 
   // Check if user is already signed in
