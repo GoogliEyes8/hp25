@@ -1,0 +1,15 @@
+import type { Metadata } from "next";
+import Header from "@/components/visualizer/header";
+import SchemaVisualizer from "@/components/visualizer/schema-visualizer";
+export const metadata: Metadata = {
+  title: "Experiment 07 - Crafted.is",
+};
+
+export default function Page() {
+  return (
+    <div className="min-h-svh flex flex-col">
+      <Header />
+      <SchemaVisualizer />
+    </div>
+  );
+}
